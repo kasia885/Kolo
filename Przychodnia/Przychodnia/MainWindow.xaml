@@ -1,0 +1,62 @@
+﻿<Window x:Class="Przychodnia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Przychodnia" MinHeight="300" MinWidth="525">
+    <Grid>
+        <Grid x:Name="gMain" Width="120" Height="300" HorizontalAlignment="Left" Margin="20,20,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="bUstawLekarza" Width="100" Height="30" Content="Ustaw lekarza" VerticalAlignment="Bottom" Click="OnClick"/>
+            <Button x:Name="bZapiszDoLekarza" Grid.Row="1" Width="100" Height="30" Content="Zapisz do lekarza" VerticalAlignment="Bottom" Click="OnClick"/>
+            <Button x:Name="bWykonajPoradę" Grid.Row="2" Width="100" Height="30" Content="Wykonaj poradę" VerticalAlignment="Bottom" Click="bWykonajPoradę_Click"/>
+            <Button x:Name="bWykonajBadanie" Grid.Row="3" Width="100" Height="30" Content="Wykonaj badanie" VerticalAlignment="Bottom" Click="bWykonajBadanie_Click"/>
+            <Button x:Name="bGenerujRaport" Grid.Row="5" Width="100" Height="30" Content="Generuj raport" VerticalAlignment="Bottom" Click="bGenerujRaport_Click"/>
+        </Grid>
+        <Label x:Name="lKolejka" Content="Kolejka:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="548,124,0,0"/>
+        <Grid x:Name="gDodajPacjenta" Height="200" Margin="207,124,283,207" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Imię i zawisko pacjenta" VerticalAlignment="Bottom"/>
+            <Label Grid.Row="1" Content="Wiek" VerticalAlignment="Bottom"/>
+            <Label Grid.Row="2" Content="Chroba" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="tPacjentIN" Grid.Column="1" Width="120" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="tPacjentW" Grid.Column="1" Grid.Row="1" Width="120" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="tPacjentC" Grid.Column="1" Grid.Row="2" Width="120" VerticalAlignment="Bottom"/>
+            <Button x:Name="bDodajPacjenta" Grid.Column="1" Grid.Row="3" Width="100" Height="30" VerticalAlignment="Bottom" Content="Dodaj" Click="OnClick"/>
+        </Grid>
+        <Grid x:Name="gUstawLekarza" Height="200" Margin="207,124,283,207" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Imię i zawisko lekarza" VerticalAlignment="Bottom"/>
+            <Label Grid.Row="1" Content="Specjalność" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="tLekarzIN" Grid.Column="1" Width="120" VerticalAlignment="Bottom"/>
+            <TextBox x:Name="tLekarzS" Grid.Column="1" Grid.Row="1" Width="120" VerticalAlignment="Bottom"/>
+            <Button x:Name="bDodajLekarza" Grid.Column="1" Grid.Row="3" Width="100" Height="30" VerticalAlignment="Bottom" Content="Dodaj" Click="OnClick"/>
+        </Grid>
+    </Grid>
+</Window>

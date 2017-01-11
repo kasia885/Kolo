@@ -1,0 +1,13 @@
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\bin\Debug\Przychodnia.exe.config
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\bin\Debug\Przychodnia.exe
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\bin\Debug\Przychodnia.pdb
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csprojResolveAssemblyReference.cache
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\MainWindow.baml
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\MainWindow.g.cs
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\App.g.cs
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia_MarkupCompile.cache
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.g.resources
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.Properties.Resources.resources
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csproj.GenerateResource.Cache
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.exe
+D:\Krzysztof Pietraszko\Przychodnia\Przychodnia\obj\Debug\Przychodnia.pdb
